@@ -1,0 +1,1 @@
+require('./scalajs-output.js');
