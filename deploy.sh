@@ -24,15 +24,15 @@ fi
 
 projectName="sri"
 
-ghPagesPath="/Users/chandu0101/Desktop/kode/programming/scalaprojects/chandu0101.github.io"
+ghPagesPath="/Users/chandu0101/Desktop/kode/programming/scalaprojects/sri/scalajs-react-interface.github.io"
 
-projectPath=${ghPagesPath}/${projectName}
+projectPath=${ghPagesPath}/
 
 cp -r build/ ${projectPath}/
 
 cd ${ghPagesPath}
 
-git add ${projectName}
+git add .
 
 git commit -m "$comment"
 

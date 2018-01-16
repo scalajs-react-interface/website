@@ -16,7 +16,7 @@ package object components {
 
   object AppRoutes extends RouterConfig {
     override val history: History =
-      HistoryFactory.browserHistory(BrowserHistoryOptions(basename = "sri"))
+      HistoryFactory.browserHistory()
 
     registerScreen[HomeScreen]("/")
 
